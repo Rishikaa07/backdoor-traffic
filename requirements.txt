@@ -1,8 +1,6 @@
+streamlit
 numpy
 matplotlib
 Pillow
 scikit-learn
-tqdm
-streamlit
-pandas
-requests
+tensorflow-cpu
