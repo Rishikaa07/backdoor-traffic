@@ -19,12 +19,18 @@ backdoor_traffic/
 ├── visualize.py                 # Graphs and training curves
 ├── demo.py                      # CLI demo (single image test)
 ├── app.py                       # Streamlit UI
+└── docs/                        # Project documentation
+    ├── README.md
+    ├── Architecture_Document.docx
+    ├── Functional_Document.pdf
+    ├── PROJECT_REPORT.pdf
+    └── RESEARCH_PAPER.pdf
 └── models/                      # Saved model weights (auto-created)
     ├── vgg16_clean.keras
     ├── resnet50_clean.keras
     └── mobilenet_clean.keras
 └── data/                        # Dataset (auto-created)
-    ├── raw/                     # Downloaded GTSRB zip
+    ├── raw/
     └── processed/
         ├── train/
         └── test/
